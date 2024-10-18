@@ -1,0 +1,21 @@
+.imgContainer{
+    background: linear-gradient(135deg, #1b3b6f, #20c997); 
+    width: 100%;
+    height: 500px;
+}
+
+
+.imglong{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+
+.imglong img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+   
+}

@@ -1,0 +1,62 @@
+.container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(135deg, #1b3b6f, #20c997); 
+}
+
+.a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    overflow: hidden; 
+}
+
+.a::before {
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 2px;
+    background-color: black;
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    transition: width 0.3s ease, background-color 0.3s ease; 
+}
+
+.a:hover::before {
+    width: 100%; 
+    background-color: black; 
+}
+
+.navbar{
+    padding: 10px;
+}
+.logo{
+    color: #ffffff;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo svg {
+    margin-right: 10px; /* Space between the SVG and text */
+    color: #b185db;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+    color: white;
+
+}
+
+ul li{
+    cursor: pointer;
+}
